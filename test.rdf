@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:nif="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <nif:String rdf:about="http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-5#char=0,455">
-    <rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#RFC5147String"/>
-    <nif:endIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">455</nif:endIndex>
-    <nif:isString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The former Rangers owner Craig Whyte has pleaded not guilty to two charges, including one of fraud, in relation to his purchase of the club in 2011. Mr Whyte's lawyer entered the plea during a hearing at the High Court in Edinburgh on Thursday morning. The 45-year-old, who lives in London, faces a charge of fraud and a second allegation under the Companies Act. A trial is scheduled to go before judge Lady Stacey at the High Court in Glasgow in April. </nif:isString>
-    <nif:beginIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</nif:beginIndex>
-    <rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Context"/>
-  </nif:String>
-</rdf:RDF>
+/>

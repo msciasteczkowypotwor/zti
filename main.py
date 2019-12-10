@@ -10,8 +10,9 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('maxent_ne_chunker')
 nltk.download('words')
 
-ex = 'European authorities fined Google a record $5.1 billion on Wednesday ' \
-     'for abusing its power in the mobile phone market and ordered the company to alter its practices'
+ex = "Democrats have accused the President of abusing his power by withholding nearly $400 million in US military aid to Ukraine and the prospect of a visit " \
+     "to the Oval Office by new President Volodymyr Zelensky in order to coerce the former Soviet state into investigating a potential 2020 foe Joe Biden. Such conduct " \
+     "they say is a worthy of impeachment because it amounts to bribery, puts Trump's own political goals ahead of America's national interests and effectively invited a foreign power to interfere in a US election"
 
 
 def preprocess(sent):
@@ -21,19 +22,24 @@ def preprocess(sent):
 
 
 sent = preprocess(ex)
-print(sent)
+#print(sent)
 
 pattern = 'NP: {<DT>?<JJ>*<NN>}'
 
 
 cp = nltk.RegexpParser(pattern)
 cs = cp.parse(sent)
-print(cs)
+#print(cs)
 
 
 iob_tagged = tree2conlltags(cs)
-pprint(iob_tagged)
+#pprint(iob_tagged)
 
 ne_tree = nltk.ne_chunk(pos_tag(word_tokenize(ex)))
-print(ne_tree)
+for x in range(89):
+    print(ne_tree[x], x)
+
+print(ne_tree.type('PERSON'))
+#print(ne_tree[21][0], ne_tree[21][1])
+
 
