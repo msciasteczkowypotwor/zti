@@ -3,16 +3,23 @@ import en_core_web_sm  # sudo python -m spacy download en_core_web_sm
 
 from rdflib import Graph
 from SPARQLWrapper import SPARQLWrapper, JSON
+import re
+
+FINDING_REF_CONTEXT = "^<.*>$"
+FINDING_PART_REF_CONTEXT = ".*char="
 
 
-def create_note(anchor_of, begin_index, end_index, leng, dbpedia):
-    context ="<http://example.com/example-task1 char=0," + leng + ">"
-    return '<http://example.com/example-task1#char=' + begin_index + ',' + end_index + '>\n\t' \
+def find(text, regex):
+    return re.findall(regex, text, re.M)[0]
+
+def create_note(anchor_of, begin_index, end_index, dbpedia, reference):
+    part_context = find(reference, FINDING_PART_REF_CONTEXT)
+    return part_context + begin_index + ',' + end_index + '>\n\t' \
           '   a                  nif:RFC5147String , nif:String ;  nif:anchorOf\n\t' \
           '   nif:anchorOf       "' + anchor_of +'"@en;\n\t' \
                                               '   if:beginIndex      "' + begin_index +'"^^xsd:nonNegativeInteger;\n\t' \
                                               '   nif:endIndex       "' + end_index +'"^^xsd:nonNegativeInteger;\n\t   ' \
-                                              'nif:referenceContext ' + context + ';\n\t' \
+                                              'nif:referenceContext ' + reference + ';\n\t' \
                                               '   itsrdf:taIdentRef  ' + dbpedia + '.\n'
 
 
@@ -37,13 +44,24 @@ def create_context(name):
     return '<http://aksw.org/notInWiki/' + name + '>'
 
 
+
+
+
 g = Graph()
+
+
+
+
 g.load('test.xml.ttl', format='ttl')
 
 spacy.nlp = en_core_web_sm.load()
 
-f = open('test.xml.ttl', 'r')
+f = open('inputs/1.xml.ttl', 'r')
 output = f.read()
+
+
+full_context = find(output, FINDING_REF_CONTEXT)
+
 
 for row in g.query('select ?s where { [] nif:isString ?s .}'):
     statement = row.s
@@ -55,6 +73,6 @@ for row in g.query('select ?s where { [] nif:isString ?s .}'):
             start = statement.find(X.text)
             stop = start + len(X.text)
             print(X.text, X.label_, X.start_char, X.end_char)
-            output += create_note(X.text, str(start), str(stop), str(len(statement)), create_context(a))
+            output += create_note(X.text, str(start), str(stop), create_context(a), full_context) +"\n"
 
 print(output)

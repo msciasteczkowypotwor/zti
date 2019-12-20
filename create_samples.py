@@ -19,10 +19,6 @@ def create_full_inputs(header, inputs):
     return full_inputs
 
 
-def find(text, regex):
-    return re.findall(regex, text, re.M)[0]
-
-
 NEW_LINE = '\n'
 FINDING_INPUTS_REGEX = "<[^<]*\"\^\^xsd:string \."
 FINDING_PREFIX_REGEX = "@.*"
@@ -42,9 +38,3 @@ for i in full_inputs:
     f.write(i)
 
     counter = counter + 1
-
-
-FINDING_REF_CONTEXT = "^<.*>$"
-FINDING_PART_REF_CONTEXT = ".*char="
-full_context = find("i", FINDING_REF_CONTEXT)
-part_context = find(full_context, FINDING_PART_REF_CONTEXT)
