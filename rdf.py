@@ -1,9 +1,9 @@
-from rdflib import Graph
 import spacy
 import en_core_web_sm     #sudo python -m spacy download en_core_web_sm
-from pynif import NIFCollection
 
+from rdflib import Graph
 from SPARQLWrapper import SPARQLWrapper, JSON
+
 
 def create_note(anchor_of,begin_index,end_index,leng,dbpedia):
     context ="<http://example.com/example-task1 char=0," + leng + ">"
@@ -31,22 +31,11 @@ def dbpedia_check(query):
     return False
 
 
-
 def create_context(name):
     if(dbpedia_check(name)):
         return "dbpedia:"+name
     return '<http://aksw.org/notInWiki/'+name+'>'
 
-
-
-
-
-
-#g=Graph()
-#g.parse("test.xml.ttl", format='ttl')
-
-#g.serialize('test.rdf', format='pretty-xml', max_depth=3)
-collection = NIFCollection(uri='http://freme-project.eu')
 
 g = Graph()
 g.load('test.xml.ttl', format='ttl')
@@ -58,9 +47,7 @@ f = open('test.xml.ttl','r')
 output = f.read()
 
 
-
 for row in g.query('select ?s where { [] nif:isString ?s .}'):
-# print(row.s)
     statement = row.s
     doc = spacy.nlp(str(statement))
     for X in doc.ents:
@@ -71,8 +58,5 @@ for row in g.query('select ?s where { [] nif:isString ?s .}'):
             stop = start + len(X.text)
             print(X.text, X.label_, X.start_char, X.end_char)
             output += create_note(X.text, str(start), str(stop), str(len(statement)), create_context(a))
-
-
-
 
 print(output)
