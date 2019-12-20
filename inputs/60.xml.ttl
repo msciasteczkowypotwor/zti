@@ -1,0 +1,11 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "470"^^xsd:nonNegativeInteger ;
+        nif:isString    "In an interview with state television broadcast late on Sunday, Zhang Xiaoming, the head of China's Liaison Office in Hong Kong, said Beijing will not interfere in matters that purely affect Hong Kong's autonomy. Chinese President Xi Jinping told outgoing Hong Kong Chief Executive Leung Chun-ying last month that China's central government strongly supports efforts by the Hong Kong government to curb moves by some promoting independence for the global financial hub. "^^xsd:string .

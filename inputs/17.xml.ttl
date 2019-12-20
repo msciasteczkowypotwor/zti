@@ -1,0 +1,11 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "541"^^xsd:nonNegativeInteger ;
+        nif:isString    "JFK is a 1991 American historical legal-conspiracy thriller film directed by Oliver Stone. It examines the events leading to the assassination of President John F. Kennedy and alleged cover-up through the eyes of former New Orleans district attorney Jim Garrison (Kevin Costner). The film was adapted by Stone and Zachary Sklar from the books On the Trail of the Assassins by Jim Garrison and Crossfire: The Plot That Killed Kennedy by Jim Marrs. Stone described this account as a \"counter-myth\" to the Warren Commission's \"fictional myth.\" "^^xsd:string .

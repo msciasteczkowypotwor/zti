@@ -1,0 +1,11 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=0,530>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "530"^^xsd:nonNegativeInteger ;
+        nif:isString    "Prince Charles urged people to remember the story of the Nativity this Christmas, which was about \"the fleeing of the Holy Family to escape violent persecution\". He asked listeners to remember that the Prophet Mohammed migrated from Mecca to Medina because he was \"seeking the freedom for himself and his followers to worship\". The Prince said: \"Whichever religious path we follow, the destination is the same - to value and respect the other person, accepting their right to live out their peaceful response to the love of God.\" "^^xsd:string .

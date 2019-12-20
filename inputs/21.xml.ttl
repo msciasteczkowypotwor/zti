@@ -1,0 +1,11 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=0,433>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "433"^^xsd:nonNegativeInteger ;
+        nif:isString    "The Nintendo Entertainment System was an instant hit when it launched in 1985, and 26 years later, the retro gaming system is still a hot commodity. According The NPD Group, an industry-tracking firm, 196,000 NES Classic Mini units were sold in November – the system’s first month on the market. But gamers looking to toss barrels in Donkey Kong or battle King Koopa will have to wait, as these consoles have sold out across the US. "^^xsd:string .

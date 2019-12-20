@@ -1,0 +1,11 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,523>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "523"^^xsd:nonNegativeInteger ;
+        nif:isString    "U.S. District Judge Charles Breyer announced the settlement during a hearing in San Francisco. Breyer on Tuesday also said German engineering company Robert Bosch GmbH [ROBG.UL], which produced the software for the VW diesels, has agreed in principle to settle civil allegations made by U.S. diesel vehicle owners. Cynthia Giles, U.S. Environmental Protection Agency assistant administrator, estimated that the costs of buybacks, fixes and diesel offsets agreed to by VW in the new settlement amounted to about $1 billion. "^^xsd:string .

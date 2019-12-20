@@ -1,11 +1,11 @@
 import spacy
-import en_core_web_sm     #sudo python -m spacy download en_core_web_sm
+import en_core_web_sm  # sudo python -m spacy download en_core_web_sm
 
 from rdflib import Graph
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 
-def create_note(anchor_of,begin_index,end_index,leng,dbpedia):
+def create_note(anchor_of, begin_index, end_index, leng, dbpedia):
     context ="<http://example.com/example-task1 char=0," + leng + ">"
     return '<http://example.com/example-task1#char=' + begin_index + ',' + end_index + '>\n\t' \
           '   a                  nif:RFC5147String , nif:String ;  nif:anchorOf\n\t' \
@@ -32,9 +32,9 @@ def dbpedia_check(query):
 
 
 def create_context(name):
-    if(dbpedia_check(name)):
-        return "dbpedia:"+name
-    return '<http://aksw.org/notInWiki/'+name+'>'
+    if dbpedia_check(name):
+        return "dbpedia:" + name
+    return '<http://aksw.org/notInWiki/' + name + '>'
 
 
 g = Graph()
@@ -42,10 +42,8 @@ g.load('test.xml.ttl', format='ttl')
 
 spacy.nlp = en_core_web_sm.load()
 
-
-f = open('test.xml.ttl','r')
+f = open('test.xml.ttl', 'r')
 output = f.read()
-
 
 for row in g.query('select ?s where { [] nif:isString ?s .}'):
     statement = row.s
@@ -53,7 +51,7 @@ for row in g.query('select ?s where { [] nif:isString ?s .}'):
     for X in doc.ents:
         a = X.text.replace(" ", "_")
 
-        if X.label_=="PERSON" or X.label_=="ORG" or X.label_=="GPE":
+        if X.label_ == "PERSON" or X.label_ == "ORG" or X.label_ == "GPE":
             start = statement.find(X.text)
             stop = start + len(X.text)
             print(X.text, X.label_, X.start_char, X.end_char)

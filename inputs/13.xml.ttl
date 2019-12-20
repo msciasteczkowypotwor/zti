@@ -1,0 +1,11 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=0,401>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "401"^^xsd:nonNegativeInteger ;
+        nif:isString    "This type of behavior has been a consistent Knicks malpractice that has turned distressingly malignant during the listing team presidency of Phil Jackson. For his part, Jackson promised an era of availability, of détente with reporters covering the team. But where was he late Monday when followers of the N.B.A. worldwide were checking Twitter to find out what the Knicks knew of Rose’s whereabouts? "^^xsd:string .

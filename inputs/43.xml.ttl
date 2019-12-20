@@ -1,0 +1,11 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-13#char=0,545>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "545"^^xsd:nonNegativeInteger ;
+        nif:isString    "Zuzana Ruzickova endured three concentration camps in World War Two, including Auschwitz, and was persecuted by the Communists in Czechoslovakia in the years that followed. But not only did she survive, she also went on to become one of the world's leading harpsichordists. \"I was not a strong child, but I was in love with music from the beginning,\" says Zuzana Ruzickova, who turns 90 next month. Born in Czechoslovakia on 14 January 1927 to a prosperous Jewish family, she had a happy childhood but was sickly and suffered from tuberculosis. "^^xsd:string .

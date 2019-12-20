@@ -1,0 +1,11 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-52#char=0,874>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "874"^^xsd:nonNegativeInteger ;
+        nif:isString    "Samsung Electronics Co's (005930.KS) sponsorship of the equestrian-athlete daughter of a long-time friend of President Park Geun-hye has helped to land South Korea's top company in the center of the country's influence-peddling scandal. Samsung agreed last year to pay $18 million to Core Sports International GmbH, a consulting firm controlled by Park's friend Choi Soon-sil, who is in jail and faces charges of abuse of power and fraud in a criminal trial that began this month. Reuters has reviewed a copy of Samsung Electronics’ August 2015 contract with Core Sports to sponsor the team at a German facility in Biblis, a small town south of Frankfurt. Neither party announced the sponsorship. Sung-Kwan Park, a Frankfurt-based lawyer who was Core's managing director, declined to discuss details of the deal when approached by Reuters, citing attorney-client privilege. "^^xsd:string .

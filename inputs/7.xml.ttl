@@ -1,0 +1,11 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "625"^^xsd:nonNegativeInteger ;
+        nif:isString    "In 1976, director Derek Jarman's debut feature film Sebastiane prompted newspaper outrage with its plentiful nudity, gay Roman soldiers and Latin dialogue. Jarman was one of Britain's boldest directors - and his partner says he would have adored the freedom of modern film-making. Keith Collins caught Derek Jarman's eye in 1986 at a festival of gay and lesbian cinema in Newcastle. Jarman was instantly smitten with the much younger computer programmer, then employed on secret Ministry of Defence projects. \"I'd gone with a gang of mates to see Gus Van Sant's Mala Noche and Wieland Speck's film Westler,\" Collins recalls. "^^xsd:string .

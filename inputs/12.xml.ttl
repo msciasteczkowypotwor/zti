@@ -1,0 +1,11 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=0,488>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "488"^^xsd:nonNegativeInteger ;
+        nif:isString    "Calogero Anello is a nine-year-old child living in the Bronx - notorious for gangster bars, racist people and an aggressive nature. Calogero witnesses a shooting in the street involving local big shot gangster, Sonny, but refuses to betray him to the police. Sonny grows fond of the boy and begins to teach him how things are conducted on the streets. Calogero's father is a working man who wants his child to grow up and make his money honestly, and does not want him to mix with Sonny. "^^xsd:string .

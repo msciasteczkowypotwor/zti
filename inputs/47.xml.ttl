@@ -1,0 +1,11 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=0,548>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "548"^^xsd:nonNegativeInteger ;
+        nif:isString    "The Facebook co-founder coded the AI assistant - called Jarvis, after the butler in Iron Man - for his home. If he decides to release it to the public, people would relate differently to a famous voice than more robotic sounding assistants, tech experts said. Mr Zuckerberg asked his Facebook followers to pick the voice after building artificial intelligence to help him around the house. He told tech news site Fast Company that he called Mr Freeman after the actor presented the Breakthrough Awards, a science prize co-founded by Mr Zuckerberg. "^^xsd:string .

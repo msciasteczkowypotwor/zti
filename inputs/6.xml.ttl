@@ -1,0 +1,11 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=0,480>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "480"^^xsd:nonNegativeInteger ;
+        nif:isString    "Derek Carr woke up a struggling Oakland offense by throwing two touchdown passes in the fourth quarter as the Raiders capped a successful trip to Mexico with a 27-20 victory over the Houston Texans on Monday night. Oakland had been held to 120 yards through three quarters, with the running game going nowhere and Carr finding few open receivers downfield. But that suddenly changed in the fourth quarter, and the Raiders won a fourth straight game for the first time since 2002. "^^xsd:string .
