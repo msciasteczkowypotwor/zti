@@ -1,0 +1,42 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=0,349>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "349"^^xsd:nonNegativeInteger ;
+        nif:isString    "When his brother is killed in a robbery, paraplegic Marine Jake Sully decides to take his place in a mission on the distant world of Pandora. There Jake learns of greedy corporate figurehead Parker Selfridge's intentions of driving off the native humanoid \"Na'vi\" in order to mine for the precious material scattered throughout their rich woodland. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=52,63>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Marine Jake"@en;
+	   if:beginIndex      "52"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "63"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=0,349>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Marine_Jake>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=133,140>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Pandora"@en;
+	   if:beginIndex      "133"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "140"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=0,349>;
+	   itsrdf:taIdentRef  dbpedia:Pandora.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=59,63>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Jake"@en;
+	   if:beginIndex      "59"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "63"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=0,349>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Jake>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=191,209>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Parker Selfridge's"@en;
+	   if:beginIndex      "191"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "209"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=0,349>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Parker_Selfridge's>.
