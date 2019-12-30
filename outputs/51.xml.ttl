@@ -1,0 +1,26 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-48#char=0,172>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "172"^^xsd:nonNegativeInteger ;
+        nif:isString    "“Reductions in risk were similar in the weekend warriors and the regularly active,” says Gary O’Donovan, a research associate at Loughborough University who led the study. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-48#char=89,103>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Gary O’Donovan"@en;
+	   if:beginIndex      "89"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "103"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-48#char=0,172>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Gary_O’Donovan>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-48#char=129,152>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Loughborough University"@en;
+	   if:beginIndex      "129"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "152"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-48#char=0,172>;
+	   itsrdf:taIdentRef  dbpedia:Loughborough_University.

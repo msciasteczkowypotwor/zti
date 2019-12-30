@@ -1,0 +1,114 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "625"^^xsd:nonNegativeInteger ;
+        nif:isString    "In 1976, director Derek Jarman's debut feature film Sebastiane prompted newspaper outrage with its plentiful nudity, gay Roman soldiers and Latin dialogue. Jarman was one of Britain's boldest directors - and his partner says he would have adored the freedom of modern film-making. Keith Collins caught Derek Jarman's eye in 1986 at a festival of gay and lesbian cinema in Newcastle. Jarman was instantly smitten with the much younger computer programmer, then employed on secret Ministry of Defence projects. \"I'd gone with a gang of mates to see Gus Van Sant's Mala Noche and Wieland Speck's film Westler,\" Collins recalls. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=18,30>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Derek Jarman"@en;
+	   if:beginIndex      "18"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "30"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  dbpedia:Derek_Jarman.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=52,62>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Sebastiane"@en;
+	   if:beginIndex      "52"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "62"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Sebastiane>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=24,30>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Jarman"@en;
+	   if:beginIndex      "24"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "30"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Jarman>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=174,181>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Britain"@en;
+	   if:beginIndex      "174"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "181"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Britain>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=281,294>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Keith Collins"@en;
+	   if:beginIndex      "281"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "294"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Keith_Collins>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=18,32>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Derek Jarman's"@en;
+	   if:beginIndex      "18"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "32"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Derek_Jarman's>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=372,381>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Newcastle"@en;
+	   if:beginIndex      "372"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "381"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Newcastle>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=24,30>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Jarman"@en;
+	   if:beginIndex      "24"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "30"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Jarman>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=479,498>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Ministry of Defence"@en;
+	   if:beginIndex      "479"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "498"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Ministry_of_Defence>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=547,561>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Gus Van Sant's"@en;
+	   if:beginIndex      "547"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "561"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Gus_Van_Sant's>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=577,592>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Wieland Speck's"@en;
+	   if:beginIndex      "577"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "592"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Wieland_Speck's>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=598,605>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Westler"@en;
+	   if:beginIndex      "598"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "605"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Westler>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=287,294>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Collins"@en;
+	   if:beginIndex      "287"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "294"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-12#char=0,625>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Collins>.

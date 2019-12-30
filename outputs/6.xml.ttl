@@ -1,0 +1,74 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=0,480>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "480"^^xsd:nonNegativeInteger ;
+        nif:isString    "Derek Carr woke up a struggling Oakland offense by throwing two touchdown passes in the fourth quarter as the Raiders capped a successful trip to Mexico with a 27-20 victory over the Houston Texans on Monday night. Oakland had been held to 120 yards through three quarters, with the running game going nowhere and Carr finding few open receivers downfield. But that suddenly changed in the fourth quarter, and the Raiders won a fourth straight game for the first time since 2002. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=0,10>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Derek Carr"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "10"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=0,480>;
+	   itsrdf:taIdentRef  dbpedia:Derek_Carr.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=32,39>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Oakland"@en;
+	   if:beginIndex      "32"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "39"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=0,480>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Oakland>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=110,117>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Raiders"@en;
+	   if:beginIndex      "110"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "117"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=0,480>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Raiders>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=146,152>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Mexico"@en;
+	   if:beginIndex      "146"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "152"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=0,480>;
+	   itsrdf:taIdentRef  dbpedia:Mexico.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=183,190>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Houston"@en;
+	   if:beginIndex      "183"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "190"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=0,480>;
+	   itsrdf:taIdentRef  dbpedia:Houston.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=32,39>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Oakland"@en;
+	   if:beginIndex      "32"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "39"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=0,480>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Oakland>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=6,10>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Carr"@en;
+	   if:beginIndex      "6"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "10"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=0,480>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Carr>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=110,117>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Raiders"@en;
+	   if:beginIndex      "110"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "117"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-38#char=0,480>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Raiders>.

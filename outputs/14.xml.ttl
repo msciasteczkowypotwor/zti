@@ -1,0 +1,50 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-37#char=0,248>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "248"^^xsd:nonNegativeInteger ;
+        nif:isString    "Christoph Waltz also portrayed computer genius Qohen Leth in the film The Zero Theorem (2013), American plagiarist Walter Keane in the biographical film Big Eyes (2014), and 007's nemesis and head of SPECTRE Ernst Stavro Blofeld in Spectre (2015). "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-37#char=0,15>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Christoph Waltz"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "15"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-37#char=0,248>;
+	   itsrdf:taIdentRef  dbpedia:Christoph_Waltz.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-37#char=47,57>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Qohen Leth"@en;
+	   if:beginIndex      "47"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "57"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-37#char=0,248>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Qohen_Leth>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-37#char=115,127>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Walter Keane"@en;
+	   if:beginIndex      "115"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "127"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-37#char=0,248>;
+	   itsrdf:taIdentRef  dbpedia:Walter_Keane.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-37#char=200,228>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "SPECTRE Ernst Stavro Blofeld"@en;
+	   if:beginIndex      "200"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "228"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-37#char=0,248>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/SPECTRE_Ernst_Stavro_Blofeld>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-37#char=232,239>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Spectre"@en;
+	   if:beginIndex      "232"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "239"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-37#char=0,248>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Spectre>.

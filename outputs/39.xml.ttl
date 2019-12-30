@@ -1,0 +1,50 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-50#char=0,340>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "340"^^xsd:nonNegativeInteger ;
+        nif:isString    "People walk past the Reserve Bank of India (RBI) head office in Mumbai, India, November 9, 2016. India's Prime Minister Narendra Modi shocked the country on Nov. 8 by abolishing 500 and 1,000 rupee notes, which accounted for 86 percent of the cash in circulation. RBI raises daily limit of withdrawals from ATMs to 4,500 rupees from 2,500. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-50#char=17,42>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the Reserve Bank of India"@en;
+	   if:beginIndex      "17"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "42"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-50#char=0,340>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_Reserve_Bank_of_India>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-50#char=64,70>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Mumbai"@en;
+	   if:beginIndex      "64"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "70"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-50#char=0,340>;
+	   itsrdf:taIdentRef  dbpedia:Mumbai.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-50#char=37,42>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "India"@en;
+	   if:beginIndex      "37"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "42"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-50#char=0,340>;
+	   itsrdf:taIdentRef  dbpedia:India.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-50#char=37,42>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "India"@en;
+	   if:beginIndex      "37"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "42"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-50#char=0,340>;
+	   itsrdf:taIdentRef  dbpedia:India.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-50#char=120,133>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Narendra Modi"@en;
+	   if:beginIndex      "120"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "133"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-50#char=0,340>;
+	   itsrdf:taIdentRef  dbpedia:Narendra_Modi.

@@ -1,0 +1,26 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-49#char=0,253>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "253"^^xsd:nonNegativeInteger ;
+        nif:isString    "Frequent exercise is generally thought to be better than fewer workouts at, for instance, preventing and controlling Type 2 diabetes, says Hannah Arem, an epidemiologist at George Washington University who wrote a commentary to accompany the new study. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-49#char=139,150>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Hannah Arem"@en;
+	   if:beginIndex      "139"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "150"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-49#char=0,253>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Hannah_Arem>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-49#char=173,201>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "George Washington University"@en;
+	   if:beginIndex      "173"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "201"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-49#char=0,253>;
+	   itsrdf:taIdentRef  dbpedia:George_Washington_University.

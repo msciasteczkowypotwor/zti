@@ -1,0 +1,50 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-14#char=0,315>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "315"^^xsd:nonNegativeInteger ;
+        nif:isString    "Lt Gen Ben Hodges said Russia's \"disregard for civilian casualties... is not the conduct of a nation that wants to be treated like a superpower\". Russia's defence minister said on Thursday that its air force had killed 35,000 fighters in Syria. But Russia has been accused of using heavy weapons in civilian areas. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-14#char=0,17>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Lt Gen Ben Hodges"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "17"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-14#char=0,315>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Lt_Gen_Ben_Hodges>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-14#char=23,29>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Russia"@en;
+	   if:beginIndex      "23"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "29"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-14#char=0,315>;
+	   itsrdf:taIdentRef  dbpedia:Russia.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-14#char=23,29>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Russia"@en;
+	   if:beginIndex      "23"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "29"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-14#char=0,315>;
+	   itsrdf:taIdentRef  dbpedia:Russia.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-14#char=238,243>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Syria"@en;
+	   if:beginIndex      "238"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "243"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-14#char=0,315>;
+	   itsrdf:taIdentRef  dbpedia:Syria.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-14#char=23,29>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Russia"@en;
+	   if:beginIndex      "23"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "29"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-14#char=0,315>;
+	   itsrdf:taIdentRef  dbpedia:Russia.

@@ -1,0 +1,66 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=0,340>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "340"^^xsd:nonNegativeInteger ;
+        nif:isString    "It is the year 1250 B.C. during the late Bronze age. Two emerging nations begin to clash after Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband, Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=95,100>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Paris"@en;
+	   if:beginIndex      "95"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "100"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=0,340>;
+	   itsrdf:taIdentRef  dbpedia:Paris.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=131,136>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Helen"@en;
+	   if:beginIndex      "131"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "136"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=0,340>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Helen>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=138,153>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Queen of Sparta"@en;
+	   if:beginIndex      "138"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "153"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=0,340>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Queen_of_Sparta>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=177,185>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Menelaus"@en;
+	   if:beginIndex      "177"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "185"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=0,340>;
+	   itsrdf:taIdentRef  dbpedia:Menelaus.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=213,217>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Troy"@en;
+	   if:beginIndex      "213"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "217"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=0,340>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Troy>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=177,185>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Menelaus"@en;
+	   if:beginIndex      "177"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "185"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=0,340>;
+	   itsrdf:taIdentRef  dbpedia:Menelaus.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=304,313>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Agamemnon"@en;
+	   if:beginIndex      "304"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "313"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-32#char=0,340>;
+	   itsrdf:taIdentRef  dbpedia:Agamemnon.

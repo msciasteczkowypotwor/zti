@@ -1,0 +1,90 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=0,715>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "715"^^xsd:nonNegativeInteger ;
+        nif:isString    "We will remember 2016 as a year of turbulence illuminated by flashes of populist anger - the year of the coming of Donald Trump and the UK's decision to leave the European Union. It was felt in Italy too, where voters used a constitutional referendum to unseat a prime minister - and it may yet be felt in France where Marine Le Pen, standard bearer of the far-right National Front, seems certain at least to make it to the second round of the presidential elections next year. The common thread from Peoria to Pinner to Perugia was a surge of angry resentment at establishment politicians - a populist revolt against being told what it is acceptable to think about issues like globalisation, migration and Europe. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=115,127>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Donald Trump"@en;
+	   if:beginIndex      "115"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "127"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=0,715>;
+	   itsrdf:taIdentRef  dbpedia:Donald_Trump.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=136,138>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "UK"@en;
+	   if:beginIndex      "136"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "138"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=0,715>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/UK>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=159,177>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the European Union"@en;
+	   if:beginIndex      "159"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "177"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=0,715>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_European_Union>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=194,199>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Italy"@en;
+	   if:beginIndex      "194"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "199"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=0,715>;
+	   itsrdf:taIdentRef  dbpedia:Italy.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=306,312>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "France"@en;
+	   if:beginIndex      "306"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "312"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=0,715>;
+	   itsrdf:taIdentRef  dbpedia:France.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=319,332>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Marine Le Pen"@en;
+	   if:beginIndex      "319"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "332"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=0,715>;
+	   itsrdf:taIdentRef  dbpedia:Marine_Le_Pen.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=367,381>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "National Front"@en;
+	   if:beginIndex      "367"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "381"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=0,715>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/National_Front>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=501,507>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Peoria"@en;
+	   if:beginIndex      "501"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "507"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=0,715>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Peoria>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=511,517>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Pinner"@en;
+	   if:beginIndex      "511"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "517"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=0,715>;
+	   itsrdf:taIdentRef  dbpedia:Pinner.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=521,528>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Perugia"@en;
+	   if:beginIndex      "521"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "528"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-10#char=0,715>;
+	   itsrdf:taIdentRef  dbpedia:Perugia.

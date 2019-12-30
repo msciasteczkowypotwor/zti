@@ -1,0 +1,66 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=0,401>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "401"^^xsd:nonNegativeInteger ;
+        nif:isString    "This type of behavior has been a consistent Knicks malpractice that has turned distressingly malignant during the listing team presidency of Phil Jackson. For his part, Jackson promised an era of availability, of détente with reporters covering the team. But where was he late Monday when followers of the N.B.A. worldwide were checking Twitter to find out what the Knicks knew of Rose’s whereabouts? "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=44,50>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Knicks"@en;
+	   if:beginIndex      "44"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "50"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=0,401>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Knicks>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=141,153>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Phil Jackson"@en;
+	   if:beginIndex      "141"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "153"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=0,401>;
+	   itsrdf:taIdentRef  dbpedia:Phil_Jackson.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=146,153>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Jackson"@en;
+	   if:beginIndex      "146"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "153"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=0,401>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Jackson>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=306,312>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "N.B.A."@en;
+	   if:beginIndex      "306"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "312"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=0,401>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/N.B.A.>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=337,344>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Twitter"@en;
+	   if:beginIndex      "337"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "344"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=0,401>;
+	   itsrdf:taIdentRef  dbpedia:Twitter.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=44,50>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Knicks"@en;
+	   if:beginIndex      "44"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "50"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=0,401>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Knicks>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=381,385>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Rose"@en;
+	   if:beginIndex      "381"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "385"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-43#char=0,401>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Rose>.

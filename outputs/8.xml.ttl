@@ -1,0 +1,26 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-2#char=0,366>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "366"^^xsd:nonNegativeInteger ;
+        nif:isString    "Shares in Italy's third largest bank, Monte dei Paschi di Siena, closed 7.4% lower on Thursday as the markets awaited news of a rescue. The bank looks increasingly likely to be bailed out by the government after a deadline for recapitalisation passed. The Italian parliament has authorised the government to use more than $20bn (£16.8bn) to support the bank sector. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-2#char=10,15>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Italy"@en;
+	   if:beginIndex      "10"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "15"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-2#char=0,366>;
+	   itsrdf:taIdentRef  dbpedia:Italy.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-2#char=38,63>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Monte dei Paschi di Siena"@en;
+	   if:beginIndex      "38"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "63"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-2#char=0,366>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Monte_dei_Paschi_di_Siena>.

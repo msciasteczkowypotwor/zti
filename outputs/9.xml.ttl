@@ -1,0 +1,50 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-46#char=0,321>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "321"^^xsd:nonNegativeInteger ;
+        nif:isString    "So for the new study, which was published on Monday in JAMA Internal Medicine, researchers at Loughborough University in England and other institutions decided to delve into the exercise routines of tens of thousands of men and women already participating in the Health Survey for England and the Scottish Health Survey. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-46#char=55,77>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "JAMA Internal Medicine"@en;
+	   if:beginIndex      "55"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "77"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-46#char=0,321>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/JAMA_Internal_Medicine>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-46#char=94,117>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Loughborough University"@en;
+	   if:beginIndex      "94"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "117"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-46#char=0,321>;
+	   itsrdf:taIdentRef  dbpedia:Loughborough_University.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-46#char=121,128>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "England"@en;
+	   if:beginIndex      "121"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "128"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-46#char=0,321>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/England>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-46#char=259,288>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the Health Survey for England"@en;
+	   if:beginIndex      "259"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "288"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-46#char=0,321>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_Health_Survey_for_England>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-46#char=293,319>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the Scottish Health Survey"@en;
+	   if:beginIndex      "293"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "319"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-46#char=0,321>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_Scottish_Health_Survey>.

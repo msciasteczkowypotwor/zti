@@ -1,0 +1,82 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=0,472>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "472"^^xsd:nonNegativeInteger ;
+        nif:isString    "After the death of Superman, the leader of a secret agency Amanda Waller convinces the government to recruit super-villains imprisoned in Belle Eve to protect the world. She summons the hitman Deadshot; The Joker's girlfriend and former psychiatrist Harley Quinn; the pyrokinetic Diablo; the bank thief Captain Boomerang; the mutant Killer Croc; the criminal Slipknot; and the witch Enchantress that possessed the former archaeologist June Moone to form The Task Force X. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=59,72>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Amanda Waller"@en;
+	   if:beginIndex      "59"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "72"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=0,472>;
+	   itsrdf:taIdentRef  dbpedia:Amanda_Waller.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=138,147>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Belle Eve"@en;
+	   if:beginIndex      "138"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "147"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=0,472>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Belle_Eve>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=186,201>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "hitman Deadshot"@en;
+	   if:beginIndex      "186"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "201"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=0,472>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/hitman_Deadshot>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=207,212>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Joker"@en;
+	   if:beginIndex      "207"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "212"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=0,472>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Joker>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=250,262>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Harley Quinn"@en;
+	   if:beginIndex      "250"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "262"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=0,472>;
+	   itsrdf:taIdentRef  dbpedia:Harley_Quinn.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=311,320>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Boomerang"@en;
+	   if:beginIndex      "311"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "320"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=0,472>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Boomerang>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=333,344>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Killer Croc"@en;
+	   if:beginIndex      "333"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "344"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=0,472>;
+	   itsrdf:taIdentRef  dbpedia:Killer_Croc.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=359,367>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Slipknot"@en;
+	   if:beginIndex      "359"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "367"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=0,472>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Slipknot>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=435,445>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "June Moone"@en;
+	   if:beginIndex      "435"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "445"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-28#char=0,472>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/June_Moone>.

@@ -1,0 +1,42 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-22#char=0,288>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "288"^^xsd:nonNegativeInteger ;
+        nif:isString    "Based on the real life story of legendary cryptanalyst Alan Turing, the film portrays the nail-biting race against time by Turing and his brilliant team of code-breakers at Britain's top-secret Government Code and Cypher School at Bletchley Park, during the darkest days of World War II. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-22#char=55,66>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Alan Turing"@en;
+	   if:beginIndex      "55"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "66"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-22#char=0,288>;
+	   itsrdf:taIdentRef  dbpedia:Alan_Turing.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-22#char=60,66>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Turing"@en;
+	   if:beginIndex      "60"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "66"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-22#char=0,288>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Turing>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-22#char=173,180>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Britain"@en;
+	   if:beginIndex      "173"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "180"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-22#char=0,288>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Britain>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-22#char=214,227>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Cypher School"@en;
+	   if:beginIndex      "214"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "227"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-22#char=0,288>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Cypher_School>.

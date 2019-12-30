@@ -1,0 +1,50 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-19#char=0,572>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "572"^^xsd:nonNegativeInteger ;
+        nif:isString    "Since it was founded in 1987, the National Museum of Women in the Arts has worked to preserve and share the legacies of such subversive heroines, specifically those engaged in creative work. The only major museum in the world dedicated to celebrating the history of women-identified artists, the NMWA works to derail the longstanding habit of overlooking, undermining and erasing the work of women from the canon. If you won’t be in Washington, D.C., for the Women’s March, don’t fret. The best part about the NMWA is that, in essence, every tour is a “Nasty Women” tour. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-19#char=30,70>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the National Museum of Women in the Arts"@en;
+	   if:beginIndex      "30"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "70"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-19#char=0,572>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_National_Museum_of_Women_in_the_Arts>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-19#char=296,300>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "NMWA"@en;
+	   if:beginIndex      "296"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "300"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-19#char=0,572>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/NMWA>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-19#char=433,443>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Washington"@en;
+	   if:beginIndex      "433"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "443"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-19#char=0,572>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Washington>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-19#char=445,449>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "D.C."@en;
+	   if:beginIndex      "445"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "449"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-19#char=0,572>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/D.C.>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-19#char=296,300>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "NMWA"@en;
+	   if:beginIndex      "296"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "300"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-19#char=0,572>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/NMWA>.

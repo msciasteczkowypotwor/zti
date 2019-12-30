@@ -1,0 +1,42 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-15#char=0,234>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "234"^^xsd:nonNegativeInteger ;
+        nif:isString    "If Manchester United sign Paul Pogba's international team-mate Antoine Griezmann next summer they will give themselves a French connection that would be the envy, not just of the rest of the Premier League, but of the rest of Europe. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-15#char=3,20>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Manchester United"@en;
+	   if:beginIndex      "3"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "20"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-15#char=0,234>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Manchester_United>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-15#char=26,38>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Paul Pogba's"@en;
+	   if:beginIndex      "26"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "38"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-15#char=0,234>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Paul_Pogba's>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-15#char=63,80>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Antoine Griezmann"@en;
+	   if:beginIndex      "63"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "80"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-15#char=0,234>;
+	   itsrdf:taIdentRef  dbpedia:Antoine_Griezmann.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-15#char=187,205>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the Premier League"@en;
+	   if:beginIndex      "187"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "205"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-15#char=0,234>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_Premier_League>.

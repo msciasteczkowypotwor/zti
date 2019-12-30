@@ -1,0 +1,58 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=0,362>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "362"^^xsd:nonNegativeInteger ;
+        nif:isString    "American singer Richard Marx has said he had to restrain a fellow passenger on a Korean Air flight, after the man allegedly attacked others onboard. The incident happened as Marx and his wife, Daisy Fuentes, were travelling from Hanoi to Seoul on Tuesday. The man was arrested upon landing and South Korean police said he was drunk, reported Yonhap news agency. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=16,28>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Richard Marx"@en;
+	   if:beginIndex      "16"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "28"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=0,362>;
+	   itsrdf:taIdentRef  dbpedia:Richard_Marx.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=24,28>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Marx"@en;
+	   if:beginIndex      "24"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "28"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=0,362>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Marx>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=193,206>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Daisy Fuentes"@en;
+	   if:beginIndex      "193"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "206"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=0,362>;
+	   itsrdf:taIdentRef  dbpedia:Daisy_Fuentes.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=229,234>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Hanoi"@en;
+	   if:beginIndex      "229"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "234"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=0,362>;
+	   itsrdf:taIdentRef  dbpedia:Hanoi.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=238,243>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Seoul"@en;
+	   if:beginIndex      "238"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "243"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=0,362>;
+	   itsrdf:taIdentRef  dbpedia:Seoul.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=342,348>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Yonhap"@en;
+	   if:beginIndex      "342"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "348"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-7#char=0,362>;
+	   itsrdf:taIdentRef  dbpedia:Yonhap.

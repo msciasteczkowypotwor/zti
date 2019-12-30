@@ -1,0 +1,90 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=0,548>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "548"^^xsd:nonNegativeInteger ;
+        nif:isString    "The Facebook co-founder coded the AI assistant - called Jarvis, after the butler in Iron Man - for his home. If he decides to release it to the public, people would relate differently to a famous voice than more robotic sounding assistants, tech experts said. Mr Zuckerberg asked his Facebook followers to pick the voice after building artificial intelligence to help him around the house. He told tech news site Fast Company that he called Mr Freeman after the actor presented the Breakthrough Awards, a science prize co-founded by Mr Zuckerberg. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=4,12>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Facebook"@en;
+	   if:beginIndex      "4"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "12"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=0,548>;
+	   itsrdf:taIdentRef  dbpedia:Facebook.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=34,36>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "AI"@en;
+	   if:beginIndex      "34"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "36"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=0,548>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/AI>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=56,62>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Jarvis"@en;
+	   if:beginIndex      "56"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "62"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=0,548>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Jarvis>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=84,92>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Iron Man"@en;
+	   if:beginIndex      "84"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "92"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=0,548>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Iron_Man>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=263,273>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Zuckerberg"@en;
+	   if:beginIndex      "263"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "273"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=0,548>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Zuckerberg>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=4,12>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Facebook"@en;
+	   if:beginIndex      "4"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "12"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=0,548>;
+	   itsrdf:taIdentRef  dbpedia:Facebook.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=398,407>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "tech news"@en;
+	   if:beginIndex      "398"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "407"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=0,548>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/tech_news>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=413,425>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Fast Company"@en;
+	   if:beginIndex      "413"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "425"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=0,548>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Fast_Company>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=444,451>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Freeman"@en;
+	   if:beginIndex      "444"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "451"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=0,548>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Freeman>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=263,273>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Zuckerberg"@en;
+	   if:beginIndex      "263"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "273"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-8#char=0,548>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Zuckerberg>.

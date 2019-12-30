@@ -1,0 +1,82 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=0,461>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "461"^^xsd:nonNegativeInteger ;
+        nif:isString    "US President-elect Donald Trump has appointed economist Peter Navarro, a fierce critic of China, as the head of a new national trade body. He will lead the White House National Trade Council, and serve as director of trade and industrial policy. Mr Navarro advised Mr Trump during the campaign. His books include The Coming China Wars and Death by China. Mr Trump has also named billionaire investor Carl Icahn to become a special adviser on regulatory reform. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=0,2>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "US"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "2"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=0,461>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/US>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=19,31>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Donald Trump"@en;
+	   if:beginIndex      "19"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "31"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=0,461>;
+	   itsrdf:taIdentRef  dbpedia:Donald_Trump.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=56,69>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Peter Navarro"@en;
+	   if:beginIndex      "56"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "69"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=0,461>;
+	   itsrdf:taIdentRef  dbpedia:Peter_Navarro.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=90,95>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "China"@en;
+	   if:beginIndex      "90"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "95"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=0,461>;
+	   itsrdf:taIdentRef  dbpedia:China.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=152,190>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the White House National Trade Council"@en;
+	   if:beginIndex      "152"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "190"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=0,461>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_White_House_National_Trade_Council>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=62,69>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Navarro"@en;
+	   if:beginIndex      "62"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "69"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=0,461>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Navarro>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=26,31>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Trump"@en;
+	   if:beginIndex      "26"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "31"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=0,461>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Trump>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=26,31>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Trump"@en;
+	   if:beginIndex      "26"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "31"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=0,461>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Trump>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=400,410>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Carl Icahn"@en;
+	   if:beginIndex      "400"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "410"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-1#char=0,461>;
+	   itsrdf:taIdentRef  dbpedia:Carl_Icahn.

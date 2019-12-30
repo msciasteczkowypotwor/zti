@@ -1,0 +1,50 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-0#char=0,413>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "413"^^xsd:nonNegativeInteger ;
+        nif:isString    "The German federal prosecutor's office said Amri's fingerprints had been found in a number of places around the lorry's cab. \"At this point in the investigation, we assume Anis Amri drove the truck,\" said spokeswoman Frauke Koehler. She also confirmed police raids had been carried out \"in various locations\" in Berlin and in North Rhine-Westphalia state where the suspect \"was living and staying for some time\". "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-0#char=44,48>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Amri"@en;
+	   if:beginIndex      "44"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "48"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-0#char=0,413>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Amri>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-0#char=172,181>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Anis Amri"@en;
+	   if:beginIndex      "172"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "181"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-0#char=0,413>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Anis_Amri>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-0#char=217,231>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Frauke Koehler"@en;
+	   if:beginIndex      "217"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "231"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-0#char=0,413>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Frauke_Koehler>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-0#char=312,318>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Berlin"@en;
+	   if:beginIndex      "312"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "318"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-0#char=0,413>;
+	   itsrdf:taIdentRef  dbpedia:Berlin.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-0#char=326,348>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "North Rhine-Westphalia"@en;
+	   if:beginIndex      "326"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "348"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-0#char=0,413>;
+	   itsrdf:taIdentRef  dbpedia:North_Rhine-Westphalia.

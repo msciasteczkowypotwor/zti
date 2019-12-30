@@ -1,0 +1,130 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "636"^^xsd:nonNegativeInteger ;
+        nif:isString    "Trump, who says Washington is \"broken\" and controlled by special interests, has largely eschewed technocrats with long government experience. Commentary: Mr. Trump, here’s what other presidents learned from the CIA. A former senior U.S. official who knows Rex Tillerson, the former Exxon Mobil CEO who is Trump's nominee for secretary of state, and Marine General James Mattis, Trump's pick for defense secretary, predicted a massive clash of egos in the cabinet. Tillerson and Mattis are \"accustomed to dominating whatever space they find themselves in, and that probably will now include the Situation Room and even the Oval Office.\" "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,5>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Trump"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "5"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Trump>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=16,26>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Washington"@en;
+	   if:beginIndex      "16"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "26"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Washington>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,5>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Trump"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "5"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Trump>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=211,214>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "CIA"@en;
+	   if:beginIndex      "211"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "214"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/CIA>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=232,236>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "U.S."@en;
+	   if:beginIndex      "232"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "236"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/U.S.>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=256,269>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Rex Tillerson"@en;
+	   if:beginIndex      "256"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "269"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  dbpedia:Rex_Tillerson.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=282,293>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Exxon Mobil"@en;
+	   if:beginIndex      "282"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "293"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Exxon_Mobil>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,5>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Trump"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "5"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Trump>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=338,343>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "state"@en;
+	   if:beginIndex      "338"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "343"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/state>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=349,363>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Marine General"@en;
+	   if:beginIndex      "349"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "363"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Marine_General>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=364,376>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "James Mattis"@en;
+	   if:beginIndex      "364"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "376"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  dbpedia:James_Mattis.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,5>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Trump"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "5"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Trump>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=260,269>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Tillerson"@en;
+	   if:beginIndex      "260"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "269"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Tillerson>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=370,376>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Mattis"@en;
+	   if:beginIndex      "370"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "376"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Mattis>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=590,608>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the Situation Room"@en;
+	   if:beginIndex      "590"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "608"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-56#char=0,636>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_Situation_Room>.

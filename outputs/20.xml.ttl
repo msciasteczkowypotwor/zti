@@ -1,0 +1,18 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-40#char=0,197>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "197"^^xsd:nonNegativeInteger ;
+        nif:isString    "In Europe , Leicester City somehow held off the best talent that richer clubs with worldwide followings could deploy, becoming the unlikeliest and most endearing Premier League champion in memory. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-40#char=12,26>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Leicester City"@en;
+	   if:beginIndex      "12"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "26"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-40#char=0,197>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Leicester_City>.

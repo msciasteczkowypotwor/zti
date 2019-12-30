@@ -1,0 +1,34 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-58#char=0,188>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "188"^^xsd:nonNegativeInteger ;
+        nif:isString    "Florence Nightingale was born on 12 May 1820 into a rich, upper-class, well-connected British family at the Villa Colombaia, in Florence, Italy, and was named after the city of her birth. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-58#char=0,20>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Florence Nightingale"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "20"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-58#char=0,188>;
+	   itsrdf:taIdentRef  dbpedia:Florence_Nightingale.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-58#char=0,8>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Florence"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "8"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-58#char=0,188>;
+	   itsrdf:taIdentRef  dbpedia:Florence.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-58#char=138,143>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Italy"@en;
+	   if:beginIndex      "138"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "143"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-58#char=0,188>;
+	   itsrdf:taIdentRef  dbpedia:Italy.

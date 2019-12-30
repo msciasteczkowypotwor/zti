@@ -1,0 +1,114 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "541"^^xsd:nonNegativeInteger ;
+        nif:isString    "JFK is a 1991 American historical legal-conspiracy thriller film directed by Oliver Stone. It examines the events leading to the assassination of President John F. Kennedy and alleged cover-up through the eyes of former New Orleans district attorney Jim Garrison (Kevin Costner). The film was adapted by Stone and Zachary Sklar from the books On the Trail of the Assassins by Jim Garrison and Crossfire: The Plot That Killed Kennedy by Jim Marrs. Stone described this account as a \"counter-myth\" to the Warren Commission's \"fictional myth.\" "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,3>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "JFK"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "3"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/JFK>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=77,89>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Oliver Stone"@en;
+	   if:beginIndex      "77"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "89"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  dbpedia:Oliver_Stone.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=156,171>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "John F. Kennedy"@en;
+	   if:beginIndex      "156"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "171"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  dbpedia:John_F._Kennedy.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=220,231>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "New Orleans"@en;
+	   if:beginIndex      "220"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "231"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  dbpedia:New_Orleans.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=250,262>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Jim Garrison"@en;
+	   if:beginIndex      "250"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "262"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  dbpedia:Jim_Garrison.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=264,277>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Kevin Costner"@en;
+	   if:beginIndex      "264"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "277"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  dbpedia:Kevin_Costner.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=84,89>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Stone"@en;
+	   if:beginIndex      "84"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "89"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Stone>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=314,327>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Zachary Sklar"@en;
+	   if:beginIndex      "314"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "327"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Zachary_Sklar>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=250,262>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Jim Garrison"@en;
+	   if:beginIndex      "250"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "262"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  dbpedia:Jim_Garrison.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=164,171>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Kennedy"@en;
+	   if:beginIndex      "164"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "171"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Kennedy>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=436,445>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Jim Marrs"@en;
+	   if:beginIndex      "436"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "445"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  dbpedia:Jim_Marrs.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=84,89>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Stone"@en;
+	   if:beginIndex      "84"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "89"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Stone>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=499,522>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the Warren Commission's"@en;
+	   if:beginIndex      "499"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "522"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-57#char=0,541>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_Warren_Commission's>.

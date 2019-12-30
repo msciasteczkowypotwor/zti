@@ -1,0 +1,50 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-44#char=0,223>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "223"^^xsd:nonNegativeInteger ;
+        nif:isString    "Phil Jackson left Hornacek — a temperate but nonsense-averse man already struggling to navigate the space between an increasingly vulnerable Jackson and his sulking stars, Derrick Rose and Carmelo Anthony — to hem and haw. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-44#char=0,12>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Phil Jackson"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "12"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-44#char=0,223>;
+	   itsrdf:taIdentRef  dbpedia:Phil_Jackson.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-44#char=18,26>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Hornacek"@en;
+	   if:beginIndex      "18"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "26"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-44#char=0,223>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Hornacek>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-44#char=5,12>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Jackson"@en;
+	   if:beginIndex      "5"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "12"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-44#char=0,223>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Jackson>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-44#char=172,184>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Derrick Rose"@en;
+	   if:beginIndex      "172"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "184"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-44#char=0,223>;
+	   itsrdf:taIdentRef  dbpedia:Derrick_Rose.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-44#char=189,204>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Carmelo Anthony"@en;
+	   if:beginIndex      "189"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "204"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-44#char=0,223>;
+	   itsrdf:taIdentRef  dbpedia:Carmelo_Anthony.

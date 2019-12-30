@@ -1,0 +1,90 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=0,433>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "433"^^xsd:nonNegativeInteger ;
+        nif:isString    "In London, Sherlock Holmes and his partner Dr. John Watson captures the follower of black magic and serial killer Lord Blackwood that has already killed five women when he is near to kill his sixth victim. Blackwood is sentenced to be strung up and Dr. Watson attests his death. However, Blackwood mysteriously returns from the afterlife and Inspector Lestrade summons Sherlock Holmes to help the Scotland Yard in the investigation. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=3,9>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "London"@en;
+	   if:beginIndex      "3"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "9"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=0,433>;
+	   itsrdf:taIdentRef  dbpedia:London.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=11,26>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Sherlock Holmes"@en;
+	   if:beginIndex      "11"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "26"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=0,433>;
+	   itsrdf:taIdentRef  dbpedia:Sherlock_Holmes.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=47,58>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "John Watson"@en;
+	   if:beginIndex      "47"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "58"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=0,433>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/John_Watson>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=114,128>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Lord Blackwood"@en;
+	   if:beginIndex      "114"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "128"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=0,433>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Lord_Blackwood>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=119,128>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Blackwood"@en;
+	   if:beginIndex      "119"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "128"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=0,433>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Blackwood>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=52,58>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Watson"@en;
+	   if:beginIndex      "52"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "58"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=0,433>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Watson>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=119,128>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Blackwood"@en;
+	   if:beginIndex      "119"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "128"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=0,433>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Blackwood>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=352,360>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Lestrade"@en;
+	   if:beginIndex      "352"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "360"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=0,433>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Lestrade>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=11,26>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Sherlock Holmes"@en;
+	   if:beginIndex      "11"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "26"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=0,433>;
+	   itsrdf:taIdentRef  dbpedia:Sherlock_Holmes.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=393,410>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the Scotland Yard"@en;
+	   if:beginIndex      "393"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "410"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-29#char=0,433>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_Scotland_Yard>.

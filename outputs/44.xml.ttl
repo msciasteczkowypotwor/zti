@@ -1,0 +1,58 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=0,319>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "319"^^xsd:nonNegativeInteger ;
+        nif:isString    "Baburao is a landlord in India, who is very near-sighted, and always in financial trouble. Baburao has a tenant named Raja, who has not paid his rent for several months. Baburao also has anther tenant named Shyam, who has come to the city to look for a job in his late father's place, but is unable to find employment. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=0,7>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Baburao"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "7"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=0,319>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Baburao>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=25,30>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "India"@en;
+	   if:beginIndex      "25"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "30"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=0,319>;
+	   itsrdf:taIdentRef  dbpedia:India.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=0,7>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Baburao"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "7"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=0,319>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Baburao>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=118,122>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Raja"@en;
+	   if:beginIndex      "118"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "122"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=0,319>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Raja>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=0,7>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Baburao"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "7"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=0,319>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Baburao>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=207,212>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Shyam"@en;
+	   if:beginIndex      "207"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "212"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-21#char=0,319>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Shyam>.

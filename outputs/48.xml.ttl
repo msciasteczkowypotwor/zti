@@ -1,0 +1,98 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=0,517>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "517"^^xsd:nonNegativeInteger ;
+        nif:isString    "The Scottish government believes that, short of full EU membership, the \"least worst outcome for the UK as a whole\" would be to retain full membership of the European Single Market through the European Economic Area (EEA), and to remain in the Customs Union. The paper argues that if the UK does not remain in those European unions and bodies, the UK government should support Scotland remaining within the European Single Market. For businesses in Scotland to maintain access to the EU market of 500 million people. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=53,55>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "EU"@en;
+	   if:beginIndex      "53"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "55"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=0,517>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/EU>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=101,103>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "UK"@en;
+	   if:beginIndex      "101"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "103"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=0,517>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/UK>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=154,215>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the European Single Market through the European Economic Area"@en;
+	   if:beginIndex      "154"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "215"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=0,517>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_European_Single_Market_through_the_European_Economic_Area>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=217,220>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "EEA"@en;
+	   if:beginIndex      "217"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "220"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=0,517>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/EEA>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=240,257>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the Customs Union"@en;
+	   if:beginIndex      "240"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "257"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=0,517>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_Customs_Union>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=101,103>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "UK"@en;
+	   if:beginIndex      "101"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "103"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=0,517>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/UK>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=101,103>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "UK"@en;
+	   if:beginIndex      "101"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "103"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=0,517>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/UK>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=377,385>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Scotland"@en;
+	   if:beginIndex      "377"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "385"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=0,517>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Scotland>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=154,180>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the European Single Market"@en;
+	   if:beginIndex      "154"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "180"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=0,517>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_European_Single_Market>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=377,385>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Scotland"@en;
+	   if:beginIndex      "377"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "385"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=0,517>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Scotland>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=53,55>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "EU"@en;
+	   if:beginIndex      "53"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "55"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-4#char=0,517>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/EU>.

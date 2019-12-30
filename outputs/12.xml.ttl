@@ -1,0 +1,66 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=0,488>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "488"^^xsd:nonNegativeInteger ;
+        nif:isString    "Calogero Anello is a nine-year-old child living in the Bronx - notorious for gangster bars, racist people and an aggressive nature. Calogero witnesses a shooting in the street involving local big shot gangster, Sonny, but refuses to betray him to the police. Sonny grows fond of the boy and begins to teach him how things are conducted on the streets. Calogero's father is a working man who wants his child to grow up and make his money honestly, and does not want him to mix with Sonny. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=0,15>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Calogero Anello"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "15"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=0,488>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Calogero_Anello>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=55,60>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Bronx"@en;
+	   if:beginIndex      "55"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "60"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=0,488>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Bronx>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=0,8>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Calogero"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "8"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=0,488>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Calogero>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=211,216>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Sonny"@en;
+	   if:beginIndex      "211"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "216"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=0,488>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Sonny>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=211,216>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Sonny"@en;
+	   if:beginIndex      "211"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "216"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=0,488>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Sonny>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=0,8>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Calogero"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "8"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=0,488>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Calogero>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=211,216>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Sonny"@en;
+	   if:beginIndex      "211"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "216"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-36#char=0,488>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Sonny>.

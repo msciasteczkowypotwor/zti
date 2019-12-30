@@ -1,0 +1,82 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=0,553>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "553"^^xsd:nonNegativeInteger ;
+        nif:isString    "It is supported by Oscar-winning songwriter Hansard and Oscar-nominated film director Jim Sheridan. Hundreds of people gathered outside the building on Tuesday afternoon as Hansard led supporters in an Irish rendition of the American song This Land is Our Land. Earlier, the High Court was told the receivers were very sensitive to the plight of the homeless, Irish national broadcaster RTÉ reported. Their barrister said there were enough facilities available for the number of homeless people in Dublin at the moment, according to Dublin City Council "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=19,24>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Oscar"@en;
+	   if:beginIndex      "19"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "24"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=0,553>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Oscar>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=33,51>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "songwriter Hansard"@en;
+	   if:beginIndex      "33"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "51"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=0,553>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/songwriter_Hansard>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=19,24>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Oscar"@en;
+	   if:beginIndex      "19"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "24"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=0,553>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Oscar>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=86,98>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Jim Sheridan"@en;
+	   if:beginIndex      "86"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "98"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=0,553>;
+	   itsrdf:taIdentRef  dbpedia:Jim_Sheridan.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=44,51>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Hansard"@en;
+	   if:beginIndex      "44"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "51"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=0,553>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Hansard>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=271,285>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the High Court"@en;
+	   if:beginIndex      "271"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "285"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=0,553>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_High_Court>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=387,390>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "RTÉ"@en;
+	   if:beginIndex      "387"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "390"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=0,553>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/RTÉ>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=498,504>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Dublin"@en;
+	   if:beginIndex      "498"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "504"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=0,553>;
+	   itsrdf:taIdentRef  dbpedia:Dublin.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=533,552>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Dublin City Council"@en;
+	   if:beginIndex      "533"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "552"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-3#char=0,553>;
+	   itsrdf:taIdentRef  dbpedia:Dublin_City_Council.

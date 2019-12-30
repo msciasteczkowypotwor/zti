@@ -1,0 +1,42 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-34#char=0,454>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "454"^^xsd:nonNegativeInteger ;
+        nif:isString    "In late nineteenth century Vienna, renowned illusionist Eisenheim is reunited with the Duchess von Teschen when she is volunteered from the audience to participate in an illusion during one of his performances. Despite having not seen each other in fifteen years when they were teenagers, they almost immediately recognize each other as Eduard Abramovich and Sophie von Teschen, they who had a doomed romance at that time due to their class differences. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-34#char=27,33>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Vienna"@en;
+	   if:beginIndex      "27"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "33"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-34#char=0,454>;
+	   itsrdf:taIdentRef  dbpedia:Vienna.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-34#char=56,65>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Eisenheim"@en;
+	   if:beginIndex      "56"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "65"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-34#char=0,454>;
+	   itsrdf:taIdentRef  dbpedia:Eisenheim.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-34#char=337,354>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Eduard Abramovich"@en;
+	   if:beginIndex      "337"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "354"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-34#char=0,454>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Eduard_Abramovich>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-34#char=359,377>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Sophie von Teschen"@en;
+	   if:beginIndex      "359"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "377"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-34#char=0,454>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Sophie_von_Teschen>.

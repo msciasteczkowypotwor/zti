@@ -1,7 +1,8 @@
 import spacy
-import en_core_web_sm  # sudo python -m spacy download en_core_web_sm
+import en_core_web_lg  # sudo python -m spacy download en_core_web_lg
 from rdflib import Graph
 from SPARQLWrapper import SPARQLWrapper, JSON
+import os
 
 import re
 
@@ -44,11 +45,12 @@ def create_context(name):
     return '<http://aksw.org/notInWiki/' + name + '>'
 
 
-g = Graph()
-spacy.nlp = en_core_web_sm.load()
+
+
 
 
 def find_named_entitys(file_name):
+    g = Graph()
     g.load(file_name, format='ttl')
     f = open(file_name, 'r')
     output = f.read()
@@ -69,7 +71,11 @@ def find_named_entitys(file_name):
     return output
 
 
-f = open('outputs/4a.xml.ttl','w')
-f.write(find_named_entitys("inputs/4.xml.ttl"))
+spacy.nlp = en_core_web_lg.load()
+input_directory = 'inputs/'
+for filename in os.listdir(input_directory):
+    print(filename)
+    f = open('outputs/'+filename,'w')
+    f.write(find_named_entitys(input_directory+filename))
 
 

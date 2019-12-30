@@ -1,0 +1,90 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,523>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "523"^^xsd:nonNegativeInteger ;
+        nif:isString    "U.S. District Judge Charles Breyer announced the settlement during a hearing in San Francisco. Breyer on Tuesday also said German engineering company Robert Bosch GmbH [ROBG.UL], which produced the software for the VW diesels, has agreed in principle to settle civil allegations made by U.S. diesel vehicle owners. Cynthia Giles, U.S. Environmental Protection Agency assistant administrator, estimated that the costs of buybacks, fixes and diesel offsets agreed to by VW in the new settlement amounted to about $1 billion. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,4>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "U.S."@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "4"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,523>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/U.S.>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=20,34>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Charles Breyer"@en;
+	   if:beginIndex      "20"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "34"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,523>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Charles_Breyer>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=80,93>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "San Francisco"@en;
+	   if:beginIndex      "80"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "93"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,523>;
+	   itsrdf:taIdentRef  dbpedia:San_Francisco.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=28,34>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Breyer"@en;
+	   if:beginIndex      "28"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "34"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,523>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Breyer>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=150,167>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Robert Bosch GmbH"@en;
+	   if:beginIndex      "150"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "167"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,523>;
+	   itsrdf:taIdentRef  dbpedia:Robert_Bosch_GmbH.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=215,217>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "VW"@en;
+	   if:beginIndex      "215"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "217"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,523>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/VW>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,4>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "U.S."@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "4"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,523>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/U.S.>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=315,328>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Cynthia Giles"@en;
+	   if:beginIndex      "315"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "328"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,523>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Cynthia_Giles>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=330,366>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "U.S. Environmental Protection Agency"@en;
+	   if:beginIndex      "330"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "366"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,523>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/U.S._Environmental_Protection_Agency>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=215,217>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "VW"@en;
+	   if:beginIndex      "215"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "217"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-54#char=0,523>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/VW>.

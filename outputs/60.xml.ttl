@@ -1,0 +1,98 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "470"^^xsd:nonNegativeInteger ;
+        nif:isString    "In an interview with state television broadcast late on Sunday, Zhang Xiaoming, the head of China's Liaison Office in Hong Kong, said Beijing will not interfere in matters that purely affect Hong Kong's autonomy. Chinese President Xi Jinping told outgoing Hong Kong Chief Executive Leung Chun-ying last month that China's central government strongly supports efforts by the Hong Kong government to curb moves by some promoting independence for the global financial hub. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=64,78>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Zhang Xiaoming"@en;
+	   if:beginIndex      "64"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "78"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>;
+	   itsrdf:taIdentRef  dbpedia:Zhang_Xiaoming.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=92,97>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "China"@en;
+	   if:beginIndex      "92"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "97"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>;
+	   itsrdf:taIdentRef  dbpedia:China.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=100,114>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Liaison Office"@en;
+	   if:beginIndex      "100"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "114"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Liaison_Office>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=118,127>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Hong Kong"@en;
+	   if:beginIndex      "118"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "127"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>;
+	   itsrdf:taIdentRef  dbpedia:Hong_Kong.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=134,141>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Beijing"@en;
+	   if:beginIndex      "134"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "141"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>;
+	   itsrdf:taIdentRef  dbpedia:Beijing.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=191,202>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Hong Kong's"@en;
+	   if:beginIndex      "191"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "202"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Hong_Kong's>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=231,241>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Xi Jinping"@en;
+	   if:beginIndex      "231"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "241"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>;
+	   itsrdf:taIdentRef  dbpedia:Xi_Jinping.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=118,127>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Hong Kong"@en;
+	   if:beginIndex      "118"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "127"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>;
+	   itsrdf:taIdentRef  dbpedia:Hong_Kong.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=282,297>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Leung Chun-ying"@en;
+	   if:beginIndex      "282"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "297"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>;
+	   itsrdf:taIdentRef  dbpedia:Leung_Chun-ying.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=92,97>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "China"@en;
+	   if:beginIndex      "92"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "97"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>;
+	   itsrdf:taIdentRef  dbpedia:China.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=118,127>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Hong Kong"@en;
+	   if:beginIndex      "118"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "127"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-51#char=0,470>;
+	   itsrdf:taIdentRef  dbpedia:Hong_Kong.

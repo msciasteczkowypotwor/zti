@@ -1,0 +1,58 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=0,433>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "433"^^xsd:nonNegativeInteger ;
+        nif:isString    "The Nintendo Entertainment System was an instant hit when it launched in 1985, and 26 years later, the retro gaming system is still a hot commodity. According The NPD Group, an industry-tracking firm, 196,000 NES Classic Mini units were sold in November – the system’s first month on the market. But gamers looking to toss barrels in Donkey Kong or battle King Koopa will have to wait, as these consoles have sold out across the US. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=0,33>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "The Nintendo Entertainment System"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "33"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=0,433>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/The_Nintendo_Entertainment_System>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=159,172>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "The NPD Group"@en;
+	   if:beginIndex      "159"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "172"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=0,433>;
+	   itsrdf:taIdentRef  dbpedia:The_NPD_Group.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=209,212>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "NES"@en;
+	   if:beginIndex      "209"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "212"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=0,433>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/NES>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=334,345>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Donkey Kong"@en;
+	   if:beginIndex      "334"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "345"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=0,433>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Donkey_Kong>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=361,366>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Koopa"@en;
+	   if:beginIndex      "361"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "366"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=0,433>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Koopa>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=429,431>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "US"@en;
+	   if:beginIndex      "429"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "431"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-16#char=0,433>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/US>.

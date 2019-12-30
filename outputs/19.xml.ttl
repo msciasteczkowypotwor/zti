@@ -1,0 +1,58 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=0,80>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "80"^^xsd:nonNegativeInteger ;
+        nif:isString    "Germany is a member of the United Nations, NATO, the G8, the G20, and the OECD. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=0,7>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Germany"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "7"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=0,80>;
+	   itsrdf:taIdentRef  dbpedia:Germany.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=23,41>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the United Nations"@en;
+	   if:beginIndex      "23"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "41"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=0,80>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_United_Nations>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=43,47>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "NATO"@en;
+	   if:beginIndex      "43"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "47"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=0,80>;
+	   itsrdf:taIdentRef  dbpedia:NATO.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=53,55>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "G8"@en;
+	   if:beginIndex      "53"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "55"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=0,80>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/G8>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=61,64>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "G20"@en;
+	   if:beginIndex      "61"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "64"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=0,80>;
+	   itsrdf:taIdentRef  dbpedia:G20.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=74,78>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "OECD"@en;
+	   if:beginIndex      "74"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "78"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-59#char=0,80>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/OECD>.

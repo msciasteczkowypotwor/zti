@@ -1,0 +1,34 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-18#char=0,240>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "240"^^xsd:nonNegativeInteger ;
+        nif:isString    "“A nasty woman is someone who refuses to be bound by the place society defined for her, someone who blazes her own trail,” Deborah Gaston, director of education at the National Museum of Women in the Arts, explained to The Huffington Post. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-18#char=123,137>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Deborah Gaston"@en;
+	   if:beginIndex      "123"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "137"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-18#char=0,240>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Deborah_Gaston>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-18#char=164,204>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the National Museum of Women in the Arts"@en;
+	   if:beginIndex      "164"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "204"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-18#char=0,240>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_National_Museum_of_Women_in_the_Arts>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-18#char=219,238>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "The Huffington Post"@en;
+	   if:beginIndex      "219"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "238"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-18#char=0,240>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/The_Huffington_Post>.

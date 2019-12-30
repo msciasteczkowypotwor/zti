@@ -1,0 +1,58 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=0,373>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "373"^^xsd:nonNegativeInteger ;
+        nif:isString    "Robert De Niro, thought of as one of the greatest actors of all time, was born in Greenwich Village, Manhattan, New York City, to artists Virginia (Admiral) and Robert De Niro Sr. His paternal grandfather was of Italian descent, and his other ancestry is Irish, German, Dutch, English, and French. He was trained at the Stella Adler Conservatory and the American Workshop. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=0,14>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Robert De Niro"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "14"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=0,373>;
+	   itsrdf:taIdentRef  dbpedia:Robert_De_Niro.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=82,99>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Greenwich Village"@en;
+	   if:beginIndex      "82"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "99"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=0,373>;
+	   itsrdf:taIdentRef  dbpedia:Greenwich_Village.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=101,110>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Manhattan"@en;
+	   if:beginIndex      "101"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "110"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=0,373>;
+	   itsrdf:taIdentRef  dbpedia:Manhattan.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=112,125>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "New York City"@en;
+	   if:beginIndex      "112"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "125"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=0,373>;
+	   itsrdf:taIdentRef  dbpedia:New_York_City.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=138,146>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Virginia"@en;
+	   if:beginIndex      "138"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "146"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=0,373>;
+	   itsrdf:taIdentRef  dbpedia:Virginia.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=161,179>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Robert De Niro Sr."@en;
+	   if:beginIndex      "161"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "179"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-35#char=0,373>;
+	   itsrdf:taIdentRef  dbpedia:Robert_De_Niro_Sr..

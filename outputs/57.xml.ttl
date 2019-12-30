@@ -1,0 +1,90 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=0,537>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "537"^^xsd:nonNegativeInteger ;
+        nif:isString    "On the day that Hurricane Katrina hits New Orleans, elderly Daisy Williams (nee Fuller) is on her deathbed in a New Orleans hospital. At her side is her adult daughter, Caroline. Daisy asks Caroline to read to her aloud the diary of Daisy's lifelong friend, Benjamin Button. Benjamin's diary recounts his entire extraordinary life, the primary unusual aspect of which was his aging backwards, being diagnosed with several aging diseases at birth and thus given little chance of survival, but who does survive and gets younger with time. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=39,50>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "New Orleans"@en;
+	   if:beginIndex      "39"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "50"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=0,537>;
+	   itsrdf:taIdentRef  dbpedia:New_Orleans.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=60,74>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Daisy Williams"@en;
+	   if:beginIndex      "60"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "74"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=0,537>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Daisy_Williams>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=76,86>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "nee Fuller"@en;
+	   if:beginIndex      "76"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "86"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=0,537>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/nee_Fuller>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=39,50>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "New Orleans"@en;
+	   if:beginIndex      "39"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "50"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=0,537>;
+	   itsrdf:taIdentRef  dbpedia:New_Orleans.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=169,177>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Caroline"@en;
+	   if:beginIndex      "169"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "177"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=0,537>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Caroline>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=60,65>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Daisy"@en;
+	   if:beginIndex      "60"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "65"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=0,537>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Daisy>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=169,177>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Caroline"@en;
+	   if:beginIndex      "169"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "177"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=0,537>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Caroline>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=60,65>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Daisy"@en;
+	   if:beginIndex      "60"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "65"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=0,537>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Daisy>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=258,273>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Benjamin Button"@en;
+	   if:beginIndex      "258"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "273"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=0,537>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Benjamin_Button>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=258,266>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Benjamin"@en;
+	   if:beginIndex      "258"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "266"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-33#char=0,537>;
+	   itsrdf:taIdentRef  dbpedia:Benjamin.

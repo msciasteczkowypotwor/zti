@@ -1,0 +1,34 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-20#char=0,529>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "529"^^xsd:nonNegativeInteger ;
+        nif:isString    "She identified 17th century scientific illustrator Maria Sibylla Merian as one of her favorite examples. Merian, born in 1647 in Frankfurt, Germany, grew up in a time when butterflies were presumed to have demonic qualities. Nonetheless, she fell in love with the winged creatures and devoted her life to understanding their physical composition and life cycles through intensive observation. She chronicled her findings in scientific illustrations, staggering works of art that revealed previously unknown biological processes. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-20#char=51,71>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Maria Sibylla Merian"@en;
+	   if:beginIndex      "51"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "71"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-20#char=0,529>;
+	   itsrdf:taIdentRef  dbpedia:Maria_Sibylla_Merian.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-20#char=129,138>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Frankfurt"@en;
+	   if:beginIndex      "129"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "138"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-20#char=0,529>;
+	   itsrdf:taIdentRef  dbpedia:Frankfurt.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-20#char=140,147>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Germany"@en;
+	   if:beginIndex      "140"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "147"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-20#char=0,529>;
+	   itsrdf:taIdentRef  dbpedia:Germany.

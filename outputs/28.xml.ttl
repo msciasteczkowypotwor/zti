@@ -1,0 +1,58 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=0,530>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "530"^^xsd:nonNegativeInteger ;
+        nif:isString    "Prince Charles urged people to remember the story of the Nativity this Christmas, which was about \"the fleeing of the Holy Family to escape violent persecution\". He asked listeners to remember that the Prophet Mohammed migrated from Mecca to Medina because he was \"seeking the freedom for himself and his followers to worship\". The Prince said: \"Whichever religious path we follow, the destination is the same - to value and respect the other person, accepting their right to live out their peaceful response to the love of God.\" "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=0,14>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Prince Charles"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "14"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=0,530>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Prince_Charles>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=57,65>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Nativity"@en;
+	   if:beginIndex      "57"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "65"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=0,530>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Nativity>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=198,218>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the Prophet Mohammed"@en;
+	   if:beginIndex      "198"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "218"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=0,530>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_Prophet_Mohammed>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=233,238>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Mecca"@en;
+	   if:beginIndex      "233"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "238"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=0,530>;
+	   itsrdf:taIdentRef  dbpedia:Mecca.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=242,248>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Medina"@en;
+	   if:beginIndex      "242"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "248"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=0,530>;
+	   itsrdf:taIdentRef  dbpedia:Medina.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=0,6>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Prince"@en;
+	   if:beginIndex      "0"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "6"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-9#char=0,530>;
+	   itsrdf:taIdentRef  dbpedia:Prince.

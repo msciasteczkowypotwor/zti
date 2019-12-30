@@ -1,0 +1,90 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=0,320>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "320"^^xsd:nonNegativeInteger ;
+        nif:isString    "When Daniel Ocean is released from prison in New Jersey, his next heist is already planned. Danny's target are three Las Vegas casinos : The Bellagio, the Mirage and the MGM Grand. They all belong to ruthless entrepreneur Terry Benedict, who, by the way, also shows a certain interest in Danny's beautiful ex-wife Tess. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=5,17>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Daniel Ocean"@en;
+	   if:beginIndex      "5"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "17"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=0,320>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Daniel_Ocean>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=45,55>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "New Jersey"@en;
+	   if:beginIndex      "45"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "55"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=0,320>;
+	   itsrdf:taIdentRef  dbpedia:New_Jersey.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=92,97>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Danny"@en;
+	   if:beginIndex      "92"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "97"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=0,320>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Danny>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=117,126>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Las Vegas"@en;
+	   if:beginIndex      "117"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "126"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=0,320>;
+	   itsrdf:taIdentRef  dbpedia:Las_Vegas.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=141,149>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Bellagio"@en;
+	   if:beginIndex      "141"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "149"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=0,320>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Bellagio>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=155,161>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Mirage"@en;
+	   if:beginIndex      "155"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "161"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=0,320>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Mirage>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=166,179>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the MGM Grand"@en;
+	   if:beginIndex      "166"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "179"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=0,320>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_MGM_Grand>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=222,236>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Terry Benedict"@en;
+	   if:beginIndex      "222"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "236"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=0,320>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Terry_Benedict>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=92,97>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Danny"@en;
+	   if:beginIndex      "92"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "97"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=0,320>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Danny>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=314,318>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Tess"@en;
+	   if:beginIndex      "314"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "318"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-30#char=0,320>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Tess>.

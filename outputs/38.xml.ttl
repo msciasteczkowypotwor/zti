@@ -1,0 +1,42 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-11#char=0,481>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "481"^^xsd:nonNegativeInteger ;
+        nif:isString    "The prime minister has said people should go about their business as usual and not be \"cowed by terrorists\" after the Christmas market attack in Germany. Theresa May told the London Evening Standard it was important to \"send a clear message that people should \"carry on with our lives as usual\". She added that the police and security services were \"unsung heroes\". Twelve people were killed on Monday when a truck was driven into a crowd at the Breitscheidplatz market in Berlin. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-11#char=145,152>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Germany"@en;
+	   if:beginIndex      "145"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "152"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-11#char=0,481>;
+	   itsrdf:taIdentRef  dbpedia:Germany.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-11#char=154,165>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Theresa May"@en;
+	   if:beginIndex      "154"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "165"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-11#char=0,481>;
+	   itsrdf:taIdentRef  dbpedia:Theresa_May.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-11#char=446,462>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Breitscheidplatz"@en;
+	   if:beginIndex      "446"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "462"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-11#char=0,481>;
+	   itsrdf:taIdentRef  dbpedia:Breitscheidplatz.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-11#char=473,479>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Berlin"@en;
+	   if:beginIndex      "473"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "479"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-11#char=0,481>;
+	   itsrdf:taIdentRef  dbpedia:Berlin.

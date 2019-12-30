@@ -1,0 +1,50 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-42#char=0,366>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "366"^^xsd:nonNegativeInteger ;
+        nif:isString    "As Derrick Rose said Tuesday upon his return from a one-night detour to Chicago, “things happen.” This is not to argue that Rose had no acceptable reason — a “family issue,” he said — for missing the Knicks’ 110-96 loss to the New Orleans Pelicans at Madison Square Garden on Monday night, the team’s eighth defeat in nine games in a season turning familiarly sour. "^^xsd:string .
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-42#char=3,15>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Derrick Rose"@en;
+	   if:beginIndex      "3"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "15"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-42#char=0,366>;
+	   itsrdf:taIdentRef  dbpedia:Derrick_Rose.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-42#char=72,79>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Chicago"@en;
+	   if:beginIndex      "72"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "79"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-42#char=0,366>;
+	   itsrdf:taIdentRef  dbpedia:Chicago.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-42#char=11,15>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Rose"@en;
+	   if:beginIndex      "11"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "15"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-42#char=0,366>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Rose>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-42#char=200,206>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "Knicks"@en;
+	   if:beginIndex      "200"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "206"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-42#char=0,366>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Knicks>.
+
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-42#char=223,247>
+	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
+	   nif:anchorOf       "the New Orleans Pelicans"@en;
+	   if:beginIndex      "223"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "247"^^xsd:nonNegativeInteger;
+	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-42#char=0,366>;
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/the_New_Orleans_Pelicans>.

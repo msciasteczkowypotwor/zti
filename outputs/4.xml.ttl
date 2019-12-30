@@ -9,13 +9,13 @@
         nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
         nif:endIndex    "349"^^xsd:nonNegativeInteger ;
         nif:isString    "When his brother is killed in a robbery, paraplegic Marine Jake Sully decides to take his place in a mission on the distant world of Pandora. There Jake learns of greedy corporate figurehead Parker Selfridge's intentions of driving off the native humanoid \"Na'vi\" in order to mine for the precious material scattered throughout their rich woodland. "^^xsd:string .
-<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=52,63>
+<http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=59,69>
 	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
-	   nif:anchorOf       "Marine Jake"@en;
-	   if:beginIndex      "52"^^xsd:nonNegativeInteger;
-	   nif:endIndex       "63"^^xsd:nonNegativeInteger;
+	   nif:anchorOf       "Jake Sully"@en;
+	   if:beginIndex      "59"^^xsd:nonNegativeInteger;
+	   nif:endIndex       "69"^^xsd:nonNegativeInteger;
 	   nif:referenceContext <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=0,349>;
-	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Marine_Jake>.
+	   itsrdf:taIdentRef  <http://aksw.org/notInWiki/Jake_Sully>.
 
 <http://www.ontologydesignpatterns.org/data/oke-challenge-2017/task-1/sentence-23#char=133,140>
 	   a                  nif:RFC5147String , nif:String ;  nif:anchorOf
