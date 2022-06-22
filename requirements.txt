@@ -1,4 +1,4 @@
-numpy==1.17.4
+numpy==1.22.0
 pynif==0.1.4
 rdflib==4.2.2
 spacy==2.2.3
